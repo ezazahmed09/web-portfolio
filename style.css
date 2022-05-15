@@ -1,5 +1,8 @@
+body{
+    margin:0px;
+}
 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
 }
 .name-color{
@@ -15,4 +18,69 @@ h1{
 
 .frist img{
     width: 100%;
+}
+
+.banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius:5px;
+    color: white;
+    font-weight:700;
+}
+
+p{
+    color: dimgray;
+}
+
+.button2 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.banner2{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.experiences{
+    box-shadow: 10px 20px 40px gray;
+    height:70%;
+    border-radius:5px;
+    background-color:white;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#Junior{
+
+    border-left: 7px solid;
+        border-image: linear-gradient(180deg, blue,cyan);
+        border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
 }
